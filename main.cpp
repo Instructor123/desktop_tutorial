@@ -3,6 +3,10 @@
 using namespace std;
 
 /*
+    On master shoud have new branch.
+*/
+
+/*
     Main function
 */
 int main(int argc, char *argv[]){
