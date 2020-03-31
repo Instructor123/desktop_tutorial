@@ -1,6 +1,12 @@
 #include <iostream>
+#include <unordered_set>
 
 using namespace std;
+
+//untested and alpha stage
+int featureFunction(unordered_set<int> myArgument){
+    
+}
 
 /*
     printTest function
