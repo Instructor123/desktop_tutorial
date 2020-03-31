@@ -6,6 +6,8 @@ using namespace std;
     On master shoud have new branch.
 */
 
+//this is yet another comment
+
 /*
     Main function
 */
