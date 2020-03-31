@@ -4,8 +4,13 @@
 using namespace std;
 
 //untested and alpha stage
-int featureFunction(unordered_set<int> myArgument){
+int featureFunction(unordered_set<int> mySet, int value){
     
+    if( mySet.find(value) != mySet.end() ){
+        cout<<"found value!"<<endl;
+    } else {
+        cout<<"Value not in set."<<endl;
+    }
 }
 
 /*
