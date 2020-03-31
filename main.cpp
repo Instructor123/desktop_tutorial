@@ -2,6 +2,17 @@
 
 using namespace std;
 
+int printTest(int argOne){
+
+    int i = 0;
+
+    for( i = 0; i < argOne; ++i ){
+        cout<<i<<" :piggie"<<((i>1) ? "s" : "")<<endl;
+    }
+
+    return 0;
+}
+
 /*
     Main function
 */
