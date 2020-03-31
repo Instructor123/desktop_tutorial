@@ -11,6 +11,8 @@ int featureFunction(unordered_set<int> mySet, int value){
     } else {
         cout<<"Value not in set."<<endl;
     }
+
+    return 0;
 }
 
 /*
@@ -40,6 +42,12 @@ int main(int argc, char *argv[]){
     int i = 0;
     int var1 = 10;
     int var2 = 100;
+    unordered_set<int> mySet;
+
+    mySet.insert(1);
+    mySet.insert(2);
+    mySet.insert(3);
+    mySet.insert(4);
 
     //code begins
     if( var1 > 5 ){
@@ -47,6 +55,9 @@ int main(int argc, char *argv[]){
     } else {
         cout<<"var1 is not greater than 5"<<endl;
     }
+
+    printTest(10);
+    featureFunction(mySet, 4);
 
     return 0;
 }
